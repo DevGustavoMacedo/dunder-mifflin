@@ -1,9 +1,4 @@
-import Document, {
-  Html,
-  Head,
-  Main,
-  NextScript
-} from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 import { ServerStyleSheet } from 'styled-components'
 
@@ -15,8 +10,7 @@ export default class MyDocument extends Document {
     try {
       ctx.renderPage = () =>
         originalRenderPage({
-          enhanceApp: (App) => (props) =>
-            sheet.collectStyles(<App {...props} />),
+          enhanceApp: (App) => (props) => sheet.collectStyles(<App {...props} />),
         })
 
       const initialProps = await Document.getInitialProps(ctx)
@@ -36,16 +30,22 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
           <meta name="title" content="Dunder Mifflin" />
           <meta name="description" content="Paper Company Inc." />
-          <meta name="image" content="https://raw.githubusercontent.com/devgustavomacedo/devgustavomacedo/main/public/dunder-mifflin.png" />
+          <meta
+            name="image"
+            content="https://raw.githubusercontent.com/devgustavomacedo/devgustavomacedo/main/public/dunder-mifflin.png"
+          />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-          <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100;400;700&display=swap" rel="stylesheet preload prefetch" as="style" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100;400;700&display=swap"
+            rel="stylesheet"
+          />
 
           <link rel="icon" href="/icons/favicon.png" />
         </Head>
