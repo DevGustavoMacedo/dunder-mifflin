@@ -45,7 +45,7 @@ export default class MyDocument extends Document {
           <meta name="image" content="https://raw.githubusercontent.com/devgustavomacedo/devgustavomacedo/main/public/dunder-mifflin.png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-          <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100;400;700&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100;400;700&display=swap" rel="stylesheet preload prefetch" as="style" />
 
           <link rel="icon" href="/icons/favicon.png" />
         </Head>
