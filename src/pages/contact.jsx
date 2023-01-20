@@ -5,6 +5,8 @@ import { useState } from 'react'
 import Image from 'next/image'
 
 import Header from '../components/Header'
+import Footer from '../components/Footer'
+
 import { Container, Form, Wrapper, Toasty } from '../styles/pages/contact'
 
 const validationSchema = yup.object().shape({
@@ -147,6 +149,7 @@ const Contact = () => {
           )}
         </Formik>
       </Container>
+      <Footer />
       <Toasty isToasty={isToasty}>
         <h4>
           <b>Complaint made!</b>
