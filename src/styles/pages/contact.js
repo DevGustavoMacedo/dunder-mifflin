@@ -20,6 +20,8 @@ export const Container = styled.div`
     h1 {
       margin: 30px 0;
       font-size: 1.4rem;
+      font-weight: 400;
+    letter-spacing: 0.2px;
     }
 
     > span img {
