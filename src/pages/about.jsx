@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 import Header from '../components/Header'
 import Slider from '../components/Slider'
+import Footer from '../components/Footer'
 import { Container, HistoryImgWrapper, DiversityGrid } from '../styles/pages/about'
 
 const About = () => {
@@ -114,6 +115,7 @@ const About = () => {
           </DiversityGrid>
         </div>
       </Container>
+      <Footer />
     </>
   )
 }
