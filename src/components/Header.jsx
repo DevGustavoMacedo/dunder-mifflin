@@ -43,6 +43,9 @@ const Header = ({ title }) => {
             <Link href="/team">
               <a>★TEAM★</a>
             </Link>
+            <Link href="/podcast">
+              <a>Podcast</a>
+            </Link>
             <Link href="/contact">
               <a>CONTACT</a>
             </Link>
