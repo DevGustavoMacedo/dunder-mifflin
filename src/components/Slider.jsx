@@ -10,6 +10,12 @@ const slides = [
     height: 720,
   },
   {
+    path: '/slides/3.jpg',
+    alt: 'Michael Tots',
+    width: 1233,
+    height: 720,
+  },
+  {
     path: '/slides/4.jpg',
     alt: 'Jim and Dwight',
     width: 1232,
@@ -19,12 +25,6 @@ const slides = [
     path: '/slides/6.jpg',
     alt: 'Kill Michael',
     width: 1147,
-    height: 720,
-  },
-  {
-    path: '/slides/3.jpg',
-    alt: 'Michael Tots',
-    width: 1233,
     height: 720,
   },
   {
