@@ -4,6 +4,8 @@ import Link from 'next/link'
 import loadCharacters from '../../lib/characters'
 
 import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+
 import { Container, Card, Back } from '../../styles/pages/character'
 
 const Character = ({ character }) => {
@@ -76,6 +78,7 @@ const Character = ({ character }) => {
           </div>
         </Card>
       </Container>
+      <Footer />
     </>
   )
 }
