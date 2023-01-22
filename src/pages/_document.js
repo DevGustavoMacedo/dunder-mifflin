@@ -40,13 +40,14 @@ export default class MyDocument extends Document {
             content="https://raw.githubusercontent.com/devgustavomacedo/devgustavomacedo/main/public/dunder-mifflin.png"
           />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100;400;700&display=swap"
             rel="stylesheet"
           />
+<link rel="stylesheet" href="node_modules/lite-youtube-embed/src/lite-yt-embed.css" />
 
+<script src="node_modules/lite-youtube-embed/src/lite-yt-embed.js"></script>
           <link rel="icon" href="/icons/favicon.png" />
         </Head>
         <body>
