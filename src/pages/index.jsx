@@ -14,10 +14,9 @@ const Index = () => {
       <Fade onClick={handleVideo} video={isVideo}>
         {isVideo && (
           <iframe
-            src="https://www.youtube.com/embed/e26dGMGdWQ8?controls=0"
+            src="https://www.youtube-nocookie.com/embed/e26dGMGdWQ8?controls=0&rel=0"
             title="Dunder Mifflin Intro"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-            allowFullScreen
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope;"
           />
         )}
       </Fade>

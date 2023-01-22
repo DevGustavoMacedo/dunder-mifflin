@@ -59,7 +59,7 @@ export const Fade = styled.div`
     border: none;
     width: 95%;
     height: 80%;
-    max-width: 1000px;
+    max-width: 900px;
   }
 
   @media (max-width: 900px) {
