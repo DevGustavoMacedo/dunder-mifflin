@@ -2,7 +2,7 @@ export default function loadCharacters(name = 'all') {
   const characters = [
     {
       name: 'Holly Flax',
-      image: '/team/holly.jpg',
+      image: '/team/holly.webp',
       seasons: [4, 5, 7],
       occupation: 'Human Resources',
       aliases: ['Fanny Smellmore', 'DJ Jazzy Flax', 'Princess Nincompoop', 'Necropolis'],
@@ -15,7 +15,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Michael Scott',
-      image: '/team/michael.jpg',
+      image: '/team/michael.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7],
       occupation: 'Regional Manager',
       aliases: [
@@ -119,7 +119,7 @@ export default function loadCharacters(name = 'all') {
       ],
       occupation: 'Director of Sales',
       brand: 'Stamford',
-      image: '/team/andy.jpg',
+      image: '/team/andy.webp',
       seasons: [3, 4, 5, 6, 7, 8, 9],
       portrayed: 'Ed Helms',
       firstEp: 'Gay Witch Hunt',
@@ -135,7 +135,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Erin Hannon',
-      image: '/team/erin.jpg',
+      image: '/team/erin.webp',
       seasons: [5, 6, 7, 8, 9],
       occupation: 'Receptionist',
       aliases: [
@@ -157,7 +157,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Kevin Malone',
-      image: '/team/kevin.jpg',
+      image: '/team/kevin.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       occupation: 'Accountant',
       aliases: [
@@ -185,7 +185,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Jan Levinson',
-      image: '/team/jan.jpg',
+      image: '/team/jan.webp',
       seasons: [1, 2, 3, 4, 5],
       occupation: 'Vice President of Sales',
       aliases: [
@@ -208,7 +208,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Darryl Philbin',
-      image: '/team/darryl.jpg',
+      image: '/team/darryl.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       occupation: 'Warehouse Assistant',
       aliases: ['Regis', 'Reg', 'Rog', 'Darryl Rogers', 'Mitta Rogers', 'Darnell'],
@@ -223,7 +223,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Oscar Martinez',
-      image: '/team/oscar.jpg',
+      image: '/team/oscar.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       occupation: 'Special Projects Manager',
       aliases: [
@@ -248,7 +248,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Pam Beesly',
-      image: '/team/pam.jpg',
+      image: '/team/pam.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       occupation: 'Receptionist',
       aliases: [
@@ -292,7 +292,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Jim Halpert',
-      image: '/team/jim.jpg',
+      image: '/team/jim.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       occupation: 'Sales Representative',
       aliases: [
@@ -332,7 +332,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Dwight Schrute',
-      image: '/team/dwight.jpg',
+      image: '/team/dwight.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       occupation: 'Assistant to the Regional Manager',
       aliases: [
@@ -404,7 +404,7 @@ export default function loadCharacters(name = 'all') {
       ],
       occupation: 'Senior Accountant',
       brand: 'Scranton',
-      image: '/team/angela.jpg',
+      image: '/team/angela.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       portrayed: 'Angela Kinsey',
       firstEp: 'Pilot',
@@ -419,7 +419,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Kelly Kapoor',
-      image: '/team/kelly.jpg',
+      image: '/team/kelly.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8],
       occupation: 'Customer Service Representative',
       aliases: [
@@ -440,7 +440,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Ryan Howard',
-      image: '/team/ryan.jpg',
+      image: '/team/ryan.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8],
       occupation: 'Temp',
       aliases: [
@@ -475,7 +475,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Stanley Hudson',
-      image: '/team/stanley.jpg',
+      image: '/team/stanley.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       occupation: 'Sales Representative',
       aliases: [
@@ -498,7 +498,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Creed Bratton',
-      image: '/team/creed.jpg',
+      image: '/team/creed.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       occupation: 'Quality Assurance',
       aliases: [
@@ -520,7 +520,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Robert California',
-      image: '/team/robert.jpg',
+      image: '/team/robert.webp',
       seasons: [8],
       occupation: 'CEO',
       aliases: ['RC (by Darryl)', 'The F***ing Lizard King (by himself)', 'Bob Kazamakis'],
@@ -533,7 +533,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Nellie Bertram',
-      image: '/team/nellie.jpg',
+      image: '/team/nellie.webp',
       seasons: [8, 9],
       occupation: 'Special Projects Manager',
       aliases: ['Nellie'],
@@ -546,7 +546,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Gabe Lewis',
-      image: '/team/gabe.jpg',
+      image: '/team/gabe.webp',
       seasons: [6, 7, 8, 9],
       occupation: 'Coordinating Director for Emerging Regions',
       aliases: ['GSL', 'Birdman', 'Skeleton Man', 'Gabewad', 'Katy Perry'],
@@ -559,7 +559,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Jo Benett',
-      image: '/team/jo.jpg',
+      image: '/team/jo.webp',
       seasons: [6, 7],
       occupation: 'CEO',
       aliases: ['Jolene'],
@@ -572,7 +572,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Meredith Palmer',
-      image: '/team/meredith.jpg',
+      image: '/team/meredith.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       occupation: 'Customer Service Representative',
       aliases: [
@@ -594,7 +594,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Phyllis Vance',
-      image: '/team/phyllis.jpg',
+      image: '/team/phyllis.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       occupation: 'Sales Representative',
       aliases: [
@@ -617,7 +617,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'David Wallace',
-      image: '/team/david.jpg',
+      image: '/team/david.webp',
       seasons: [2, 3, 4, 5, 6, 8, 9],
       occupation: 'CFO',
       aliases: ['Detective Wallace', 'David Walrus', "World's Best Boss"],
@@ -630,7 +630,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Karen Filippelli',
-      image: '/team/karen.jpg',
+      image: '/team/karen.webp',
       seasons: [3, 4],
       occupation: 'Sales Representative',
       aliases: ['The Other Woman'],
@@ -643,7 +643,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Charles Miner',
-      image: '/team/charles.jpg',
+      image: '/team/charles.webp',
       seasons: [5],
       occupation: 'Vice President of Sales',
       aliases: ['Chuck'],
@@ -656,7 +656,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Cathy Simms',
-      image: '/team/cathy.jpg',
+      image: '/team/cathy.webp',
       seasons: [8],
       occupation: 'Office Administrator',
       aliases: ['Cath', "Pam's Replacement"],
@@ -669,7 +669,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Clark Green',
-      image: '/team/clark.jpg',
+      image: '/team/clark.webp',
       seasons: [9],
       occupation: 'Director of Sales',
       aliases: ['Chuck'],
@@ -682,7 +682,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Pete Miller',
-      image: '/team/pete.jpg',
+      image: '/team/pete.webp',
       seasons: [9],
       occupation: 'Customer Service Representative',
       aliases: ['Plop', 'New Jim'],
@@ -695,7 +695,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Roy Anderson',
-      image: '/team/roy.jpg',
+      image: '/team/roy.webp',
       seasons: [1, 2, 3],
       occupation: 'Warehouse Worker',
       aliases: ["Dwight's punching bag"],
@@ -708,7 +708,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Todd Packer',
-      image: '/team/todd.jpg',
+      image: '/team/todd.webp',
       seasons: [2, 3, 6, 7, 8, 9],
       occupation: 'Traveling Salesman',
       aliases: ['Packer', 'Pack-Man', 'Packster', 'Wacky Pack'],
@@ -721,7 +721,7 @@ export default function loadCharacters(name = 'all') {
     },
     {
       name: 'Toby Flenderson',
-      image: '/team/toby.jpg',
+      image: '/team/toby.webp',
       seasons: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       occupation: 'Human Resources',
       aliases: [
@@ -751,7 +751,7 @@ export default function loadCharacters(name = 'all') {
       brand: 'Nashua',
       seasons: [5, 7],
       portrayed: 'Rob Huebel',
-      image: '/team/aj.jpg',
+      image: '/team/aj.webp',
       firstEp: 'Lecture Circuit Part 2',
       quotes: [],
       trivia:

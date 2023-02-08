@@ -1,6 +1,18 @@
 export default function loadEpisodes() {
   const episodes = [
     {
+        "title": "Michael’s Last Dundies",
+        "link": "2cMS9hG4lGvU871LQA3sYf"
+    },
+    {
+        "title": "Training Day",
+        "link": "3FFXJKJhl9SprB6FnHm31H"
+    },
+    {
+        "title": "Garage Sale",
+        "link": "71hrSmOTMA2dZ6AsBt2Mpn"
+    },
+    {
         "title": "Todd Packer",
         "link": "7jdk8IdaiR3XKOsjglfFzH"
     },
@@ -679,7 +691,7 @@ export default function loadEpisodes() {
     {
         "title": "The Pilot",
         "link": "6TcrvDgs40fdsek9HcntVJ"
-    },
+    }
 ]
 
   return episodes
