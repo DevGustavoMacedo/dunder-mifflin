@@ -62,7 +62,7 @@ const Contact = () => {
         <div>
           <h1>Dunder Mifflin, this is Pam!</h1>
           <Image
-            src="/assets/contact.jpg"
+            src="/assets/contact.webp"
             alt="Dunder Mifflin, this is Pam!"
             width={1000}
             height={570}

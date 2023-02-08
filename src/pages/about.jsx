@@ -27,7 +27,7 @@ const About = () => {
 
           <HistoryImgWrapper>
             <Image
-              src='/assets/office-location.png'
+              src='/assets/office-location.webp'
               alt='Office Location'
               width='728'
               height='526'
@@ -50,7 +50,7 @@ const About = () => {
 
           <HistoryImgWrapper>
             <Image
-              src='/assets/young-michael.jpg'
+              src='/assets/young-michael.webp'
               alt='Young Michael'
               width='590'
               height='545'
@@ -88,26 +88,26 @@ const About = () => {
           <h2>We respect diversity!</h2>
           <DiversityGrid>
             <Image
-              src='/assets/doc-king.jpg'
+              src='/assets/doc-king.webp'
               alt='Card Luther King'
               width='855'
               height='720'
             />
 
             <Image
-              src='/assets/doll.jpg'
+              src='/assets/doll.webp'
               alt='Doll'
               width='1280'
               height='720'
             />
             <Image
-              src='/assets/blind-michael.png'
+              src='/assets/blind-michael.webp'
               alt='Blind Michael'
               width='713'
               height='720'
             />
             <Image
-              src='/assets/fat-michael.jpg'
+              src='/assets/fat-michael.webp'
               alt='Fat Michael'
               width='719'
               height='720'

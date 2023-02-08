@@ -25,8 +25,8 @@ const Header = ({ title }) => {
           <div>
             <Image
               src="/icons/logo.png"
-              width={190}
-              height={120}
+              width={200}
+              height={121}
               quality={100}
               alt="Dunder Mifflin Logo"
               className="logo"

@@ -4,37 +4,37 @@ import { Container, Carousel, Slide, Button } from '../styles/components/slider'
 
 const slides = [
   {
-    path: '/slides/1.jpg',
+    path: '/slides/1.webp',
     alt: 'Christimas',
     width: 1170,
     height: 720,
   },
   {
-    path: '/slides/3.jpg',
+    path: '/slides/3.webp',
     alt: 'Michael Tots',
     width: 1233,
     height: 720,
   },
   {
-    path: '/slides/4.jpg',
+    path: '/slides/4.webp',
     alt: 'Jim and Dwight',
     width: 1232,
     height: 720,
   },
   {
-    path: '/slides/6.jpg',
+    path: '/slides/6.webp',
     alt: 'Kill Michael',
     width: 1147,
     height: 720,
   },
   {
-    path: '/slides/2.jpg',
+    path: '/slides/2.webp',
     alt: 'Michael Scott and Jim Halpert',
     width: 1281,
     height: 720,
   },
   {
-    path: '/slides/5.jpg',
+    path: '/slides/5.webp',
     alt: 'Daryl and others',
     width: 1280,
     height: 720,
