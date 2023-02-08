@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Home = styled.main`
-  background-image: url('/assets/background.jpg');
+  background-image: url('/assets/background.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -12,7 +12,7 @@ export const Home = styled.main`
   text-align: center;
 
   h2 {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
     color: ${(props) => props.theme.colors.secondary};
     font-weight: 400;
     font-family: ${(props) => props.theme.fonts.primary};
@@ -24,10 +24,6 @@ export const Home = styled.main`
     letter-spacing: 0.25rem;
   }
 
-  .hide {
-    display: none;
-  }
-
   @media (min-width: 2000px) {
     h2 {
       font-size: 3.5rem;
@@ -35,42 +31,12 @@ export const Home = styled.main`
   }
 
   @media (max-width: 1024px) {
-    background-position: center;
+    /* background-position: center; */
 
     h2 {
       font-size: 1.3rem;
-      padding: 0.9rem 2rem 0;
-    }
-  }
-`
-
-export const Fade = styled.div`
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.8);
-  display: ${(props) => (props.video ? 'flex' : 'none')};
-  align-items: center;
-  justify-content: center;
-  backdrop-filter: blur(5px);
-  z-index: 2;
-
-  iframe {
-    border: none;
-    width: 95%;
-    height: 80%;
-    max-width: 900px;
-  }
-
-  @media (max-width: 900px) {
-    iframe {
-      height: 60%;
-    }
-  }
-
-  @media (max-width: 576px) {
-    iframe {
-      height: 40%;
+      margin-bottom: 5rem;
+      padding: 0 1.2rem;
     }
   }
 `

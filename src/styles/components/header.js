@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 
 export const Heading = styled.header`
   background-color: ${(props) => props.theme.colors.primary};
-  padding: 5px;
+  padding: 4px 0 0 0;
 
   @media (min-width: 1900px) {
     padding: 10px;
@@ -39,12 +39,20 @@ export const Menu = styled.div`
     border: none;
   }
 
+  div img {
+    height: 90px !important;
+  }
+
   @media (min-width: 1900px) {
     nav {
       a {
         padding: 30px;
         font-size: 1.6rem;
       }
+    }
+
+    div img {
+      height: 105px !important;
     }
   }
 
