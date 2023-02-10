@@ -66,13 +66,12 @@ const Contact = () => {
             alt="Dunder Mifflin, this is Pam!"
             width={1000}
             height={570}
-            quality={100}
             priority={true}
           />
           <figcaption>
             sorry, Michael is in jail...
             <Image
-              src="/icons/prision-mike.jpg"
+              src="/icons/prision-mike.webp"
               alt="Prision Mike"
               width={600}
               height={500}

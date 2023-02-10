@@ -2,10 +2,15 @@ import styled, { css } from 'styled-components'
 
 export const Heading = styled.header`
   background-color: ${(props) => props.theme.colors.primary};
-  padding: 4px 0 0 0;
+  padding: 5px;
+  z-index: 2;
 
   @media (min-width: 1900px) {
     padding: 10px;
+  }
+
+  @media (max-width: 576px) {
+    padding: 4px 0 0 4px;
   }
 `
 
@@ -14,6 +19,7 @@ export const Menu = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 2;
 
   nav {
     width: 100%;
@@ -41,6 +47,7 @@ export const Menu = styled.div`
 
   div img {
     height: 90px !important;
+    width: 149.4px !important;
   }
 
   @media (min-width: 1900px) {
@@ -53,6 +60,7 @@ export const Menu = styled.div`
 
     div img {
       height: 105px !important;
+      width: 174.3px !important;
     }
   }
 
@@ -66,6 +74,7 @@ export const Menu = styled.div`
 
     div img {
       height: 70px !important;
+      width: 116.2px !important;
     }
 
     nav {

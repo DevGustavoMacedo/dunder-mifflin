@@ -1,15 +1,12 @@
 import styled from 'styled-components'
 
 export const Home = styled.main`
-  background-image: url('/assets/background.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
+  position: relative;
 
   h2 {
     margin-bottom: 1rem;
@@ -22,6 +19,7 @@ export const Home = styled.main`
       1px -1px 10px ${(props) => props.theme.colors.primary},
       1px 1px 10px ${(props) => props.theme.colors.primary};
     letter-spacing: 0.25rem;
+    z-index: 1;
   }
 
   @media (min-width: 2000px) {

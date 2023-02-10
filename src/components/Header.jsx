@@ -24,7 +24,7 @@ const Header = ({ title }) => {
         <Menu isMenuMobileToggle={isMenuMobileToggle}>
           <div>
             <Image
-              src="/icons/logo.png"
+              src="/icons/logo.webp"
               width={200}
               height={121}
               quality={100}
