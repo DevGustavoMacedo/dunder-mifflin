@@ -7,7 +7,7 @@ const Podcast = ({ episodes, isEpisode, setEpisode }) => (
     <Title text={'Listen to our podcast'} />
 
     <ul>
-      {episodes.reverse().map((episode) => (
+      {episodes.map((episode) => (
         <li key={episode.title} onClick={() => setEpisode(episode.link)}>
           <h2>{episode.title}</h2>
           <h3>
