@@ -1,13 +1,12 @@
 import Header from '../../components/Header'
 import Cards from '../../components/Cards'
 import Footer from '../../components/Footer'
+import Title from '../../components/Title'
 
-import Heading from '../../styles/pages/team'
-
-import loadCharacters from '../../lib/characters'
+import { getOneDataCharacters } from '../../lib/fetchCharacters'
 
 export async function getStaticProps() {
-  const characters = loadCharacters()
+  const characters = await getOneDataCharacters('image')
 
   return {
     props: {
@@ -16,15 +15,13 @@ export async function getStaticProps() {
   }
 }
 
-const Characters = ({ characters }) => {
-  return (
-    <>
-      <Header title='Team' />
-      <Heading>Our Team</Heading>
-      <Cards characters={characters} />
-      <Footer />
-    </>
-  )
-}
+const Characters = ({ characters }) => (
+  <>
+    <Header title="Team" />
+    <Title text={'Our Team'} />
+    <Cards characters={characters} />
+    <Footer />
+  </>
+)
 
 export default Characters
