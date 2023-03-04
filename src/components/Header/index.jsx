@@ -1,9 +1,10 @@
+import { useState, useEffect } from 'react'
+
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState, useEffect } from 'react'
 
-import { Menu, Heading } from '../styles/components/header'
+import * as S from './styled'
 
 const Header = ({ title }) => {
   const [isMenuMobileToggle, setMenuMobileToggle] = useState(false)
@@ -20,8 +21,8 @@ const Header = ({ title }) => {
       <Head>
         <title>{title}</title>
       </Head>
-      <Heading>
-        <Menu isMenuMobileToggle={isMenuMobileToggle}>
+      <S.Header>
+        <S.Menu isMenuMobileToggle={isMenuMobileToggle}>
           <div>
             <Image
               src="/icons/logo.webp"
@@ -59,8 +60,8 @@ const Header = ({ title }) => {
               height={40}
             />
           </button>
-        </Menu>
-      </Heading>
+        </S.Menu>
+      </S.Header>
     </>
   )
 }

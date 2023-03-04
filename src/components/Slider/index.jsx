@@ -1,14 +1,9 @@
-import Image from 'next/image'
 import { useRef, useState } from 'react'
-import { Container, Carousel, Slide, Button } from '../styles/components/slider'
+import Image from 'next/image'
+
+import * as S from './styled'
 
 const slides = [
-  {
-    path: '/slides/1.webp',
-    alt: 'Christimas',
-    width: 1170,
-    height: 720,
-  },
   {
     path: '/slides/3.webp',
     alt: 'Michael Tots',
@@ -19,6 +14,12 @@ const slides = [
     path: '/slides/4.webp',
     alt: 'Jim and Dwight',
     width: 1232,
+    height: 720,
+  },
+  {
+    path: '/slides/1.webp',
+    alt: 'Christimas',
+    width: 1170,
     height: 720,
   },
   {
@@ -41,7 +42,7 @@ const slides = [
   },
 ]
 
-function Slider() {
+const Slider = () => {
   const carousel = useRef(null)
   const [isButton, setButton] = useState(0)
 
@@ -58,32 +59,32 @@ function Slider() {
   }
 
   return (
-    <Container>
-      <Button disabled={isButton <= 0 ? true : false} onClick={handleLeftClick}>
+    <S.Container>
+      <S.Button disabled={isButton <= 0 ? true : false} onClick={handleLeftClick}>
         <Image
           src="/icons/arrow-left.svg"
           alt="Scroll Left"
           height={64}
           width={64}
         />
-      </Button>
-      <Carousel ref={carousel}>
+      </S.Button>
+      <S.Carousel ref={carousel}>
         {slides.map((slide, index) => (
-          <Slide key={slide.alt}>
+          <S.Slide key={slide.alt}>
             <Image src={slide.path} alt={slide.alt} width={slide.width} height={slide.height} priority={index === 0 ? true : false} />
-          </Slide>
+          </S.Slide>
         ))}
-      </Carousel>
+      </S.Carousel>
 
-      <Button  disabled={isButton >= 5 ? true : false} onClick={handleRightClick}>
+      <S.Button  disabled={isButton >= 5 ? true : false} onClick={handleRightClick}>
         <Image
           src="/icons/arrow-right.svg"
           alt="Scroll Right"
           height={64}
           width={64}
         />
-      </Button>
-    </Container>
+      </S.Button>
+    </S.Container>
   )
 }
 

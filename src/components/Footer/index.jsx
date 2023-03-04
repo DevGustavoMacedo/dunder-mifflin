@@ -1,7 +1,7 @@
-import { MyFooter } from '../styles/components/footer'
+import * as S from './styled'
 
 const Footer = () => (
-  <MyFooter>
+  <S.Footer>
     <p>
       Developed with 🤍 by
       <span>
@@ -10,7 +10,7 @@ const Footer = () => (
         </a>
       </span>
     </p>
-  </MyFooter>
+  </S.Footer>
 )
 
 export default Footer
