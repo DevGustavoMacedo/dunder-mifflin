@@ -132,6 +132,7 @@ export const DiversityGrid = styled.div`
     border-radius: 1.4rem;
     height: 450px !important;
     object-fit: cover;
+    object-position: top;
   }
 
   @media (min-width: 1900px) {

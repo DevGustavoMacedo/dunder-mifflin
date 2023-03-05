@@ -33,7 +33,8 @@ export const Menu = styled.div`
       color: ${(props) => props.theme.colors.secondary};
       font-family: ${(props) => props.theme.fonts.primary};
       font-size: 1.2rem;
-
+      border-radius: 1.4rem;
+      
       :hover {
         background-color: #01213a;
       }

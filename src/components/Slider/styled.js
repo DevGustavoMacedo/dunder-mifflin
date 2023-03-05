@@ -29,7 +29,7 @@ export const Button = styled.button`
   padding: 4px 5px 2px;
   border-radius: 50%;
   cursor: ${({ disabled }) => (disabled === true ? 'unset' : 'pointer')};
-  opacity: ${({ disabled }) => (disabled === true ? 0.4 : 1)};
+  opacity: ${({ disabled }) => (disabled === true ? 0.2 : 1)};
 
   span {
     width: 40px !important;
@@ -37,6 +37,12 @@ export const Button = styled.button`
 
   span img {
     width: 100% !important;
+  }
+
+  :not(:disabled) {
+    :hover {
+      opacity: 0.8;
+    }
   }
 
   @media (min-width: 1900px) {

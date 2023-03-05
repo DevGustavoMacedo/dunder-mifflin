@@ -72,10 +72,9 @@ const About = () => (
       <h2>We respect diversity!</h2>
       <S.DiversityGrid>
         <Image src="/assets/doc-king.webp" alt="Card Luther King" width="855" height="720" />
-
-        <Image src="/assets/doll.webp" alt="Doll" width="1280" height="720" />
-        <Image src="/assets/blind-michael.webp" alt="Blind Michael" width="713" height="720" />
-        <Image src="/assets/fat-michael.webp" alt="Fat Michael" width="719" height="720" />
+        <Image src="/assets/klump.webp" alt="Fat Michael" width="719" height="720" />
+        <Image src="/assets/mcsqueezy.webp" alt="Blind Michael" width="713" height="720" />
+        <Image src="/assets/ping.webp" alt="Doll" width="798" height="720" />
       </S.DiversityGrid>
     </div>
   </S.Container>
