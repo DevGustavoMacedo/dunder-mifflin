@@ -25,6 +25,11 @@ const GlobalStyle = createGlobalStyle`
   body::-webkit-scrollbar-thumb {
     background-color: #15384e;
   }
+
+  ::selection {
+    color: rgb(240, 240, 255);
+    background-color: rgb(21, 56, 78);
+  }
 `
 
 const theme = {
