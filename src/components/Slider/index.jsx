@@ -71,7 +71,13 @@ const Slider = () => {
       <S.Carousel ref={carousel}>
         {slides.map((slide, index) => (
           <S.Slide key={slide.alt}>
-            <Image src={slide.path} alt={slide.alt} width={slide.width} height={slide.height} priority={index === 0 ? true : false} />
+            <Image 
+              src={slide.path} 
+              alt={slide.alt} 
+              width={slide.width} 
+              height={slide.height} 
+              priority={index === 0 ? true : false} 
+            />
           </S.Slide>
         ))}
       </S.Carousel>

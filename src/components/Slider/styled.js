@@ -52,15 +52,16 @@ export const Button = styled.button`
   }
 
   @media (max-width: 900px) {
-    span {
+    display: none;
+/*     span {
       width: 30px !important;
-    }
+    } */
   }
 
-  @media (max-width: 576px) {
+/*   @media (max-width: 576px) {
     position: absolute;
     z-index: 2;
-    bottom: 10px;
+    bottom: 1rem;
 
     :first-child {
       left: 5px;
@@ -69,22 +70,42 @@ export const Button = styled.button`
     :last-child {
       right: 5px;
     }
-  }
+  } */
 `
 
 export const Carousel = styled.div`
   display: flex;
   overflow-x: auto;
-  /* scroll-behavior: auto; */
+  scroll-snap-type: x mandatory;
 
   ::-webkit-scrollbar {
-    display: none;
+      display: none;
+    }
+
+  @media (max-width: 900px) {
+    ::-webkit-scrollbar {
+    height: 10px;
+    width: 100%;
+    display: block;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 1rem;
+    background-color: #adbaca;
+    margin: 0 3rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #15384e;
+  }
   }
 `
 
 export const Slide = styled.div`
   width: 100%;
   flex: none;
+  scroll-snap-align: start;
 
   span {
     width: 100% !important;
@@ -94,6 +115,7 @@ export const Slide = styled.div`
     height: 560px !important;
     border-radius: 1.4rem;
     object-fit: cover;
+    pointer-events: none;
   }
 
   @media (min-width: 1900px) {
@@ -111,6 +133,7 @@ export const Slide = styled.div`
   @media (max-width: 576px) {
     span img {
       height: 250px !important;
+      border-radius: 0;
     }
   }
 `
