@@ -11,6 +11,7 @@ export const Footer = styled.footer`
   font-weight: 400;
   font-size: 0.9rem;
   font-family: ${(props) => props.theme.fonts.primary};
+  margin-top: 4rem;
 
   span a {
     text-decoration: none;
@@ -20,7 +21,7 @@ export const Footer = styled.footer`
 
   @media (max-width: 550px) {
     font-size: 0.7em;
-    margin-top: 1.4rem;
+    margin-top: 2rem;
     height: 30px;
   }
 `

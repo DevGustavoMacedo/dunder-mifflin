@@ -126,7 +126,6 @@ export const DiversityGrid = styled.div`
   background-color: ${(props) => props.theme.colors.primary};
   gap: 10px;
   padding: 10px;
-  margin-bottom: 4rem;
 
   span img {
     border-radius: 1.4rem;

@@ -7,6 +7,7 @@ export const Container = styled.main`
   justify-content: space-between;
   text-align: center;
   position: relative;
+  overflow: hidden;
 
   h2 {
     margin-bottom: 1rem;

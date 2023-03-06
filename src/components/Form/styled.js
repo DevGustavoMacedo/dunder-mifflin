@@ -123,12 +123,12 @@ export const Wrapper = styled.div`
   width: 100%;
   gap: 20px;
   justify-content: space-between;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 
   @media (min-width: 1900px) {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
   }
 
   @media (max-width: 576px) {

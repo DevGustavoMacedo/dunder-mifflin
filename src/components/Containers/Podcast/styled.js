@@ -5,7 +5,6 @@ export const Container = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 4rem;
   width: 100%;
 
   h2,
@@ -54,6 +53,10 @@ export const Container = styled.section`
       width: 90%;
       max-width: 700px;
       cursor: pointer;
+
+      :last-child {
+        margin-bottom: 0;
+      }
     }
   }
 

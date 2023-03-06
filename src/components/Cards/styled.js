@@ -22,12 +22,17 @@ export const Wrapper = styled.div`
   padding: 1.2rem;
   background-color: ${(props) => props.theme.colors.primary};
   border-radius: 0 2rem 2rem 0;
-  margin-bottom: 4rem;
   position: sticky;
   top: 0px;
 
+  :nth-child(n + 5) {
+    margin-top: 4rem;
+  }
+
   @media (max-width: 576px) {
-    margin-bottom: 2rem;
+    :nth-child(n + 2) {
+      margin-top: 2rem;
+    }
   }
 `
 
