@@ -15,7 +15,7 @@ export const Container = styled.section`
     letter-spacing: 0.4px;
     margin: 0;
     font-size: 1rem;
-    color: ${(props) => props.theme.colors.secondary};
+    color: ${(props) => props.theme.colors.white};
   }
 
   h3 {
@@ -46,7 +46,7 @@ export const Container = styled.section`
     justify-content: center;
 
     li {
-      background-color: ${(props) => props.theme.colors.primary};
+      background-color: ${(props) => props.theme.colors.blue};
       padding: 0.7rem 1rem;
       margin: 0 0 1rem;
       border-radius: 1rem;

@@ -10,7 +10,7 @@ const Home = () => (
       alt="Background"
       objectFit="cover"
       layout="fill"
-      objectPosition='top'
+      objectPosition='center 2rem'
       priority={true}
     />
     <Header title="Home" />

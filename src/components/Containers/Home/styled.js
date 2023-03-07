@@ -11,14 +11,14 @@ export const Container = styled.main`
 
   h2 {
     margin-bottom: 1rem;
-    color: ${(props) => props.theme.colors.secondary};
+    color: ${(props) => props.theme.colors.white};
     font-weight: 400;
     font-family: ${(props) => props.theme.fonts.primary};
     font-size: 2.2rem;
-    text-shadow: -1px -1px 10px ${(props) => props.theme.colors.primary},
-      -1px 1px 10px ${(props) => props.theme.colors.primary},
-      1px -1px 10px ${(props) => props.theme.colors.primary},
-      1px 1px 10px ${(props) => props.theme.colors.primary};
+    text-shadow: -1px -1px 10px ${(props) => props.theme.colors.blue},
+      -1px 1px 10px ${(props) => props.theme.colors.blue},
+      1px -1px 10px ${(props) => props.theme.colors.blue},
+      1px 1px 10px ${(props) => props.theme.colors.blue};
     letter-spacing: 0.25rem;
     z-index: 1;
   }

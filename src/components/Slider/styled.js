@@ -25,7 +25,7 @@ export const Container = styled.div`
 
 export const Button = styled.button`
   border: none;
-  background-color: ${(props) => props.theme.colors.primary};
+  background-color: ${(props) => props.theme.colors.blue};
   padding: 4px 5px 2px;
   border-radius: 50%;
   cursor: ${({ disabled }) => (disabled === true ? 'unset' : 'pointer')};
@@ -92,7 +92,7 @@ export const Carousel = styled.div`
   ::-webkit-scrollbar-track {
     border-radius: 1rem;
     background-color: #adbaca;
-    margin: 0 3rem;
+    margin: 0 4rem;
   }
 
   ::-webkit-scrollbar-thumb {

@@ -5,7 +5,7 @@ export const Toasty = styled.div`
   right: ${({ isToasty }) => (isToasty.open ? '100px' : '-110vw')};
   bottom: 50px;
   font-family: ${(props) => props.theme.fonts.secondary};
-  background-color: ${(props) => props.theme.colors.tertiary};
+  background-color: ${(props) => props.theme.colors.gray};
   border-radius: 1rem;
   padding: 10px;
   transition: all 700ms ease-in-out;
@@ -23,7 +23,7 @@ export const Toasty = styled.div`
   }
 
   b {
-    color: ${(props) => props.theme.colors.primary};
+    color: ${(props) => props.theme.colors.blue};
   }
 
   @media (min-width: 1900px) {

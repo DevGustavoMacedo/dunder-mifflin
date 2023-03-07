@@ -5,8 +5,8 @@ export const Form = styled.form`
   flex-direction: column;
   align-items: flex-start;
   font-family: ${(props) => props.theme.fonts.secondary};
-  color: ${(props) => props.theme.colors.secondary};
-  background-color: ${(props) => props.theme.colors.primary};
+  color: ${(props) => props.theme.colors.white};
+  background-color: ${(props) => props.theme.colors.blue};
   border-radius: 1.4rem;
   margin: 2rem auto 4rem;
   width: 90%;
@@ -38,7 +38,7 @@ export const Form = styled.form`
     border-style: none;
     outline: none;
     font-family: ${(props) => props.theme.fonts.secondary};
-    background-color: ${(props) => props.theme.colors.secondary};
+    background-color: ${(props) => props.theme.colors.white};
   }
 
   textarea {
@@ -46,7 +46,7 @@ export const Form = styled.form`
   }
 
   option {
-    background-color: ${(props) => props.theme.colors.tertiary};
+    background-color: ${(props) => props.theme.colors.gray};
   }
 
   span {
@@ -60,11 +60,11 @@ export const Form = styled.form`
   button {
     width: 70px;
     margin: 30px 0;
-    color: ${(props) => props.theme.colors.primary};
+    color: ${(props) => props.theme.colors.blue};
     font-size: 1rem;
     font-family: ${(props) => props.theme.fonts.primary};
     letter-spacing: 1px;
-    background-color: ${(props) => props.theme.colors.tertiary};
+    background-color: ${(props) => props.theme.colors.gray};
     cursor: pointer;
 
     :disabled {

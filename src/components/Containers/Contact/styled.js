@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   font-weight: bold;
-  color: ${(props) => props.theme.colors.primary};
+  color: ${(props) => props.theme.colors.blue};
   font-family: ${(props) => props.theme.fonts.primary};
   letter-spacing: 0.5px;
   text-transform: uppercase;

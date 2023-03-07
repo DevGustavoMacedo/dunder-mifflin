@@ -20,7 +20,7 @@ export const Container = styled.section`
 
 export const Wrapper = styled.div`
   padding: 1.2rem;
-  background-color: ${(props) => props.theme.colors.primary};
+  background-color: ${(props) => props.theme.colors.blue};
   border-radius: 0 2rem 2rem 0;
   position: sticky;
   top: 0px;
@@ -39,7 +39,7 @@ export const Wrapper = styled.div`
 export const Card = styled.div`
   width: 100%;
   border-radius: 0 2rem 2rem 0;
-  background-color: ${(props) => props.theme.colors.secondary};
+  background-color: ${(props) => props.theme.colors.white};
 
   @keyframes spin {
     0% {
@@ -63,7 +63,7 @@ export const Card = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    color: ${(props) => props.theme.colors.primary};
+    color: ${(props) => props.theme.colors.blue};
     font-family: ${(props) => props.theme.fonts.secondary};
     font-weight: bold;
     font-size: 1rem;

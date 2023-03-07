@@ -6,7 +6,7 @@ export const Container = styled.section`
   width: 90%;
 
   h2 {
-    color: ${(props) => props.theme.colors.primary};
+    color: ${(props) => props.theme.colors.blue};
     font-family: ${(props) => props.theme.fonts.primary};
     font-weight: 400;
     text-align: center;
@@ -23,9 +23,9 @@ export const Container = styled.section`
   }
 
   blockquote {
-    border: 5px dashed ${(props) => props.theme.colors.primary};
+    border: 5px dashed ${(props) => props.theme.colors.blue};
     padding: 10px 40px;
-    border-radius: 1.4rem;
+    border-radius: 0 2rem 2rem 0;
 
     ul li {
       font-family: sans-serif;
@@ -36,7 +36,7 @@ export const Container = styled.section`
       margin: 20px 0;
 
       ::marker {
-        color: ${(props) => props.theme.colors.primary};
+        color: ${(props) => props.theme.colors.blue};
         font-size: 1.5rem;
       }
     }
@@ -123,9 +123,10 @@ export const DiversityGrid = styled.div`
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   margin: 0 auto;
-  background-color: ${(props) => props.theme.colors.primary};
+  background-color: ${(props) => props.theme.colors.blue};
   gap: 10px;
   padding: 10px;
+  border-radius: 0 2rem 2rem 0;
 
   span img {
     border-radius: 1.4rem;

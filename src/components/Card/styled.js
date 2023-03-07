@@ -6,7 +6,7 @@ export const Container = styled.div`
   justify-content: center;
   margin: 2rem 0 4rem;
   h1 {
-    color: ${(props) => props.theme.colors.secondary};
+    color: ${(props) => props.theme.colors.white};
     margin-top: 0;
   }
 `
@@ -19,7 +19,7 @@ export const Back = styled.span`
   
   a {
     text-decoration: none;
-    color: ${(props) => props.theme.colors.secondary};
+    color: ${(props) => props.theme.colors.white};
   }
 
   @media (max-width: 425px) {
@@ -30,7 +30,7 @@ export const Back = styled.span`
 
 export const Card = styled.div`
   border-radius: 0 2rem 2rem 0;
-  background-color: ${(props) => props.theme.colors.primary};
+  background-color: ${(props) => props.theme.colors.blue};
   width: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -47,14 +47,14 @@ export const Card = styled.div`
   }
 
   > div:last-child {
-    background-color: ${(props) => props.theme.colors.secondary};
+    background-color: ${(props) => props.theme.colors.white};
     font-family: ${(props) => props.theme.fonts.secondary};
     padding: 30px;
     font-size: 1rem;
     border-radius: 0 2rem 2rem 0;
 
     strong {
-      color: ${(props) => props.theme.colors.primary};
+      color: ${(props) => props.theme.colors.blue};
       font-size: 1.1rem;
     }
 
@@ -62,7 +62,7 @@ export const Card = styled.div`
       padding: 10px;
       margin: 30px 0;
       line-height: 20px;
-      border: 2px solid ${(props) => props.theme.colors.tertiary};
+      border: 2px solid ${(props) => props.theme.colors.gray};
       border-radius: 0 2rem 2rem 0;
     }
 
@@ -76,11 +76,11 @@ export const Card = styled.div`
       }
 
       ::-webkit-scrollbar-track {
-        background-color: ${(props) => props.theme.colors.tertiary};
+        background-color: ${(props) => props.theme.colors.gray};
       }
 
       ::-webkit-scrollbar-thumb {
-        background-color: ${(props) => props.theme.colors.primary};
+        background-color: ${(props) => props.theme.colors.blue};
         border-radius: 25px;
       }
 
@@ -91,7 +91,7 @@ export const Card = styled.div`
         padding: 0 20px 0 0;
 
         ::marker {
-          color: ${(props) => props.theme.colors.primary};
+          color: ${(props) => props.theme.colors.blue};
           font-size: 1rem;
         }
 

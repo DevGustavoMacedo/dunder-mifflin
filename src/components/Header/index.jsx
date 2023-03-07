@@ -26,9 +26,9 @@ const Header = ({ title }) => {
           <div>
             <Image
               src="/icons/logo.webp"
-              width={200}
-              height={121}
-              quality={100}
+              width={847}
+              height={506}
+              // quality={100}
               alt="Dunder Mifflin Logo"
               className="logo"
             />

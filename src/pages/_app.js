@@ -24,20 +24,27 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body::-webkit-scrollbar-thumb {
-    background-color: #15384e;
+    background-color: #0a2d46;
   }
 
+  @media (max-width: 576px) {
+  ::-webkit-scrollbar {
+    display: none;
+    
+  }
+}
+
   ::selection {
-    color: rgb(240, 240, 255);
-    background-color: rgb(21, 56, 78);
+    color: #f0f0ff;
+    background-color: #0a2d46;
   }
 `
 
 const theme = {
   colors: {
-    primary: '#15384e',
-    secondary: '#f0f0ff',
-    tertiary: '#adbaca',
+    blue: '#0a2d46',
+    white: '#f0f0ff',
+    gray: '#adbaca',
   },
   fonts: {
     primary: 'Anton, sans-serif',

@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Footer = styled.footer`
-  color: ${(props) => props.theme.colors.secondary};
-  background-color: ${(props) => props.theme.colors.primary};
+  color: ${(props) => props.theme.colors.white};
+  background-color: ${(props) => props.theme.colors.blue};
   height: 50px;
   text-align: center;
   display: flex;
