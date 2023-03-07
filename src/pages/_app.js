@@ -28,9 +28,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   @media (max-width: 576px) {
-  ::-webkit-scrollbar {
+  body::-webkit-scrollbar {
     display: none;
-    
   }
 }
 

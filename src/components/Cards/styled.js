@@ -72,7 +72,7 @@ export const Card = styled.div`
     > span img {
       cursor: pointer;
       height: 30px !important;
-      animation: spin 1s 2 linear;
+      animation: spin 0.75s 3 linear;
     }
   }
 

@@ -4,7 +4,8 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2rem 0 4rem;
+  margin-top: 2rem;
+
   h1 {
     color: ${(props) => props.theme.colors.white};
     margin-top: 0;
@@ -16,7 +17,9 @@ export const Back = styled.span`
   font-size: 1.6rem;
   padding: 0.25rem 0 0;
   cursor: pointer;
-  
+  top: 0;
+  left: 0;
+
   a {
     text-decoration: none;
     color: ${(props) => props.theme.colors.white};
@@ -25,7 +28,6 @@ export const Back = styled.span`
   @media (max-width: 425px) {
     font-size: 1.2rem;
   }
-
 `
 
 export const Card = styled.div`
@@ -39,11 +41,15 @@ export const Card = styled.div`
   gap: 30px;
   padding: 50px 30px 30px;
 
-  > div:first-child span img {
-    width: 100% !important;
-    height: 450px !important;
-    object-fit: cover;
-    border-radius: 0 2rem 2rem 0;
+  > div:first-child {
+    position: relative;
+
+    span img {
+      width: 100% !important;
+      height: 450px !important;
+      object-fit: cover;
+      border-radius: 0 2rem 2rem 0;
+    }
   }
 
   > div:last-child {
@@ -170,6 +176,8 @@ export const Card = styled.div`
   }
 
   @media (max-width: 425px) {
+    width: 95%;
+
     > div:last-child {
       padding: 20px;
     }
