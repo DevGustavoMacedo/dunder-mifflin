@@ -34,10 +34,10 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="title" content="Dunder Mifflin" />
-          <meta name="description" content="Paper Company Inc." />
+          <meta name="description" content="Paper Company" />
           <meta
             name="image"
-            content="https://raw.githubusercontent.com/devgustavomacedo/devgustavomacedo/main/public/dunder-mifflin.png"
+            content="https://raw.githubusercontent.com/DevGustavoMacedo/devgustavomacedo/main/public/dunder-mifflin.webp"
           />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
