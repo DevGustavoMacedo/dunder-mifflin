@@ -20,7 +20,9 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-  const character = await getAllDataCharacter(context.params.name).then((data) => {
+  const name = context.params.name
+
+  const character = await getAllDataCharacter(name).then((data) => {
     if (!data || data.error) {
       return []
     }
