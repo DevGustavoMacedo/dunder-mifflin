@@ -1,13 +1,17 @@
-import { getAllDataCharacter, getOneDataCharacters } from '../../lib/fetchCharacters'
+import { getAllDataCharacter, getDataCharacters } from '../../lib/fetchCharacters'
 
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Card from '../../components/Card'
 
 export async function getStaticPaths() {
-  const paths = await getOneDataCharacters('name').then((data) =>
-    data.map((item) => ({ params: { name: item.name.replace(/\s+/g, '') } }))
-  )
+  const paths = await getDataCharacters('name').then((data) => {
+    if (!data || data.error) {
+      return []
+    }
+
+    return data.map((item) => ({ params: { name: item.name.replace(/\s+/g, '') } }))
+  })
 
   return {
     paths,
@@ -16,7 +20,13 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-  const character = await getAllDataCharacter(context.params.name)
+  const character = await getAllDataCharacter(context.params.name).then((data) => {
+    if (!data || data.error) {
+      return []
+    }
+
+    return data
+  })
 
   return {
     props: {
@@ -28,7 +38,7 @@ export async function getStaticProps(context) {
 const Character = ({ character }) => (
   <>
     <Header title={character.name} />
-    <Card character={character} />
+    {Object.keys(character).length > 0 && <Card character={character} />}
     <Footer />
   </>
 )

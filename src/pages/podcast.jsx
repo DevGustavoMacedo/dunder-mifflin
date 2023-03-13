@@ -8,7 +8,14 @@ import { getAllEpisodes } from '../lib/fetchPodcast'
 
 export async function getStaticProps() {
   const episodes = await getAllEpisodes()
+  .then((data) => {
+    if (!data || data.error) {
+      return []
+    }
 
+    return data
+  })
+  
   return {
     props: {
       episodes,

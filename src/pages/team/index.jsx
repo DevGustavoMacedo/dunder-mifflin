@@ -3,10 +3,17 @@ import Cards from '../../components/Cards'
 import Footer from '../../components/Footer'
 import Title from '../../components/Title'
 
-import { getOneDataCharacters } from '../../lib/fetchCharacters'
+import { getDataCharacters } from '../../lib/fetchCharacters'
 
 export async function getStaticProps() {
-  const characters = await getOneDataCharacters('image')
+  const characters = await getDataCharacters('name&image')
+  .then((data) => {
+    if (!data || data.error) {
+      return []
+    }
+
+    return data
+  })
 
   return {
     props: {
@@ -19,7 +26,7 @@ const Characters = ({ characters }) => (
   <>
     <Header title="Team" />
     <Title text={'Our Team'} />
-    <Cards characters={characters} />
+    {characters.length > 0 && <Cards characters={characters} />}
     <Footer />
   </>
 )

@@ -8,11 +8,12 @@ import * as S from './styled'
 const Card = ({ character }) => (
   <S.Container>
     <S.Card>
+      {}
       <div>
-          <S.Back>
-            <Link href={'/team/'}>❮</Link>
-          </S.Back>
-          <Title text={character.name} />
+        <S.Back>
+          <Link href={'/team/'}>❮</Link>
+        </S.Back>
+        <Title text={character.name} />
 
         <Image
           src={character.image}
